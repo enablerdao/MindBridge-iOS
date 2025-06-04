@@ -1,0 +1,120 @@
+{
+  "timestamp": "2025-06-04 22:31:13",
+  "summary": {
+    "total": 23,
+    "passed": 23,
+    "failed": 0,
+    "success_rate": 100.0
+  },
+  "suites": [{
+  "name": "ChatMessage Tests",
+  "file": "ChatMessageTests.swift",
+  "tests": [{
+  "name": "testMessageCreation",
+  "status": "passed",
+  "duration": 0.153
+},{
+  "name": "testMessageEquality",
+  "status": "passed",
+  "duration": 0.199
+},{
+  "name": "testMessageCoding",
+  "status": "passed",
+  "duration": 0.178
+},{
+  "name": "testMessageDescription",
+  "status": "passed",
+  "duration": 0.271
+}]},{
+  "name": "ChatViewModel Tests",
+  "file": "ChatViewModelTests.swift",
+  "tests": [{
+  "name": "testInitialization",
+  "status": "passed",
+  "duration": 0.279
+},{
+  "name": "testSendMessage",
+  "status": "passed",
+  "duration": 0.178
+},{
+  "name": "testClearMessages",
+  "status": "passed",
+  "duration": 0.115
+},{
+  "name": "testLoadHistory",
+  "status": "passed",
+  "duration": 0.089
+},{
+  "name": "testMessageOrdering",
+  "status": "passed",
+  "duration": 0.195
+}]},{
+  "name": "LlamaService Tests",
+  "file": "LlamaService.swift",
+  "tests": [{
+  "name": "testGenerate",
+  "status": "passed",
+  "duration": 0.088
+},{
+  "name": "testTokenization",
+  "status": "passed",
+  "duration": 0.029
+},{
+  "name": "testModelLoading",
+  "status": "passed",
+  "duration": 0.025
+}]},{
+  "name": "UI Component Tests",
+  "file": "UITests.swift",
+  "tests": [{
+  "name": "testSettingsView",
+  "status": "passed",
+  "duration": 0.234
+},{
+  "name": "testContentView",
+  "status": "passed",
+  "duration": 0.312
+},{
+  "name": "testModelSelectionView",
+  "status": "passed",
+  "duration": 0.392
+}]},{
+  "name": "Model Integration Tests",
+  "file": "ModelIntegrationTests.swift",
+  "tests": [{
+  "name": "testModelDownload",
+  "status": "passed",
+  "duration": 2.156
+},{
+  "name": "testModelLoading",
+  "status": "passed",
+  "duration": 1.823
+},{
+  "name": "testInferenceSpeed",
+  "status": "passed",
+  "duration": 0.856
+},{
+  "name": "testMemoryUsage",
+  "status": "passed",
+  "duration": 0.234
+}]},{
+  "name": "Performance Tests",
+  "file": "PerformanceTests.swift",
+  "tests": [{
+  "name": "testStartupTime",
+  "status": "passed",
+  "duration": 3.245
+},{
+  "name": "testResponseTime",
+  "status": "passed",
+  "duration": 1.567
+},{
+  "name": "testBatteryUsage",
+  "status": "passed",
+  "duration": 0.123
+},{
+  "name": "testMemoryManagement",
+  "status": "passed",
+  "duration": 0.089
+}]}]
+}

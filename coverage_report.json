@@ -1,0 +1,59 @@
+{
+  "files" : [
+    {
+      "name" : "ChatMessage.swift",
+      "coverage" : 100,
+      "passed" : 4,
+      "failed" : 0
+    },
+    {
+      "coverage" : 75,
+      "passed" : 3,
+      "failed" : 1,
+      "name" : "LlamaService.swift"
+    },
+    {
+      "passed" : 5,
+      "failed" : 0,
+      "coverage" : 100,
+      "name" : "ChatViewModel.swift"
+    },
+    {
+      "name" : "ModelDownloadService.swift",
+      "failed" : 1,
+      "coverage" : 66.700000000000003,
+      "passed" : 2
+    },
+    {
+      "passed" : 3,
+      "failed" : 0,
+      "coverage" : 100,
+      "name" : "SettingsView.swift"
+    },
+    {
+      "coverage" : 100,
+      "passed" : 4,
+      "failed" : 0,
+      "name" : "ContentView.swift"
+    },
+    {
+      "passed" : 2,
+      "failed" : 0,
+      "coverage" : 100,
+      "name" : "ModelSelectionView.swift"
+    },
+    {
+      "failed" : 0,
+      "name" : "Qwen3iOSApp.swift",
+      "passed" : 1,
+      "coverage" : 100
+    }
+  ],
+  "timestamp" : "2025-06-04T11:34:40Z",
+  "summary" : {
+    "failed" : 2,
+    "passed" : 24,
+    "totalTests" : 26,
+    "coverage" : 92.307692307692307
+  }
+}

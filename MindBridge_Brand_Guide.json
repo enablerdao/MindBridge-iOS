@@ -1,0 +1,30 @@
+{
+  "brand_name": "MindBridge",
+  "tagline": "Private AI Assistant",
+  "description": "Connect your mind to AI, privately and securely",
+  "colors": {
+    "primary": "rgb(106, 90, 255)",
+    "secondary": "rgb(255, 107, 107)",
+    "accent": "rgb(72, 219, 251)",
+    "dark": "rgb(30, 30, 35)",
+    "light": "rgb(248, 249, 250)"
+  },
+  "fonts": {
+    "primary": "Arial Bold",
+    "secondary": "Arial",
+    "code": "Monaco, Menlo, monospace"
+  },
+  "tone": [
+    "Professional yet approachable",
+    "Privacy-focused",
+    "Innovation-driven",
+    "User-centric"
+  ],
+  "key_features": [
+    "🧠 AI-powered conversations",
+    "🔒 Complete privacy protection",
+    "📱 iOS optimized",
+    "⚡ Fast offline processing",
+    "🌍 Multi-language support"
+  ]
+}

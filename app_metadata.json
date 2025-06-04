@@ -1,0 +1,19 @@
+{
+  "app_name": "Qwen3 Chat",
+  "version": "1.0.0",
+  "build": "1",
+  "description": "Qwen3-4B-Instructモデルを搭載したプライベートなAIチャットアプリ",
+  "keywords": [
+    "AI",
+    "Chat",
+    "Japanese",
+    "Offline",
+    "Privacy",
+    "LLM"
+  ],
+  "category": "Productivity",
+  "content_rating": "4+",
+  "copyright": "© 2025 Qwen3iOS Team",
+  "privacy_policy": "https://example.com/privacy",
+  "support_url": "https://example.com/support"
+}
