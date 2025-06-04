@@ -88,7 +88,7 @@ class ModelDownloadService: ObservableObject {
         let destinationURL = documentsPath.appendingPathComponent(model.fileName)
         
         // URLSession でダウンロード
-        let (tempURL, response) = try await URLSession.shared.download(from: url) { progress in
+        let (tempURL, _) = try await URLSession.shared.download(from: url) { progress in
             Task { @MainActor in
                 self.downloadProgress = progress
             }
@@ -132,9 +132,9 @@ class ModelDownloadService: ObservableObject {
 @available(iOS 16.0, macOS 13.0, *)
 extension URLSession {
     func download(from url: URL, progress: @escaping (Double) -> Void) async throws -> (URL, URLResponse) {
-        let (asyncBytes, response) = try await URLSession.shared.bytes(from: url)
+        let (asyncBytes, urlResponse) = try await URLSession.shared.bytes(from: url)
         
-        let totalBytes = response.expectedContentLength
+        let totalBytes = urlResponse.expectedContentLength
         var downloadedBytes: Int64 = 0
         
         let tempURL = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
@@ -153,6 +153,6 @@ extension URLSession {
         }
         
         try fileHandle.close()
-        return (tempURL, response)
+        return (tempURL, urlResponse)
     }
 }

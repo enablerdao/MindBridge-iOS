@@ -1,0 +1,77 @@
+{
+  "app_info": {
+    "bundle_id": "com.enablerdao.mindbridge",
+    "name": {
+      "en": "MindBridge - AI Chat Assistant",
+      "ja": "MindBridge - AIチャットアシスタント"
+    },
+    "subtitle": {
+      "en": "Private on-device AI conversations",
+      "ja": "プライベートなオンデバイスAI会話"
+    },
+    "version": "1.0.0",
+    "build": "1",
+    "category": {
+      "primary": "Productivity",
+      "secondary": "Education"
+    },
+    "price": "Free",
+    "age_rating": "4+"
+  },
+  "description": {
+    "short": {
+      "en": "Completely private AI chat. Powered by Qwen3-4B, works offline. No data transmission, fast responses. Supports programming, learning, and creative work.",
+      "ja": "完全プライベートなAIチャット。Qwen3-4B搭載でオフライン動作。データ送信なし、高速応答。プログラミング、学習、創作活動をサポート。"
+    },
+    "full": {
+      "en": "🧠 MindBridge - Next-Generation Private AI Assistant\n\nA completely on-device AI chat application. Your conversations never leave your device.\n\n## Key Features\n\n🔒 Completely Private\n• All processing happens on your device\n• Zero data transmission to external servers\n• Works completely offline\n\n🇯🇵 Native Japanese Support\n• Natural and fluent Japanese conversations\n• Understanding of Japanese culture and business practices\n• Multilingual support (Japanese, English, Chinese)\n\n⚡ High-Performance AI\n• Latest Qwen3-4B-Instruct model\n• Metal GPU optimization for fast responses\n• Real-time text generation\n\n🎯 Versatile Applications\n• Programming learning and assistance\n• Creative writing support\n• Educational support\n• Business consultation\n• Daily conversation partner\n\n## Technical Specifications\n• iOS 16.0+ supported\n• A14 Bionic chip or later recommended\n• ~4GB storage (including model)\n• No internet connection required\n\nExperience truly private AI conversations designed with privacy as the top priority.",
+      "ja": "🧠 MindBridge - 次世代プライベートAIアシスタント\n\n完全にオンデバイスで動作するAIチャットアプリケーション。あなたの会話は絶対に外部に送信されません。\n\n## 主要機能\n\n🔒 完全プライベート\n• すべての処理がデバイス内で完結\n• 会話データの外部送信一切なし\n• オフラインで完全動作\n\n🇯🇵 日本語ネイティブ対応\n• 自然で流暢な日本語会話\n• 日本の文化・ビジネス慣習理解\n• 多言語対応（日本語・英語・中国語）\n\n⚡ 高性能AI\n• Qwen3-4B-Instruct最新モデル\n• Metal GPU最適化で高速応答\n• リアルタイム文字生成\n\n🎯 多様な用途\n• プログラミング学習・支援\n• 創作活動サポート\n• 学習・教育支援\n• ビジネス相談\n• 日常会話パートナー\n\n## 技術仕様\n• iOS 16.0以降対応\n• A14 Bionicチップ以降推奨\n• 約4GB容量（モデル込み）\n• インターネット接続不要\n\nプライバシーを最優先に設計された、真にプライベートなAI体験をお楽しみください。"
+    }
+  },
+  "keywords": {
+    "en": "AI,chat,private,offline,programming,learning,Qwen,on-device",
+    "ja": "AI,チャット,プライベート,オフライン,プログラミング,学習,Qwen,オンデバイス"
+  },
+  "urls": {
+    "support": "https://github.com/enablerdao/MindBridge-iOS",
+    "marketing": "https://github.com/enablerdao/MindBridge-iOS",
+    "privacy_policy": "https://github.com/enablerdao/MindBridge-iOS/blob/main/PRIVACY_POLICY.md"
+  },
+  "release_notes": {
+    "v1.0.0": {
+      "en": "🎉 MindBridge Initial Release\n\n• Completely private AI conversation experience\n• Powered by Qwen3-4B-Instruct model\n• Offline operation support\n• Native Japanese language support\n• Programming and learning assistance features\n• Fast responses with Metal GPU optimization",
+      "ja": "🎉 MindBridge初回リリース\n\n• 完全プライベートなAI会話体験\n• Qwen3-4B-Instructモデル搭載\n• オフライン動作対応\n• 日本語ネイティブサポート\n• プログラミング・学習支援機能\n• Metal GPU最適化による高速応答"
+    }
+  },
+  "review_information": {
+    "notes": "Initial release of on-device AI chat application. Model download (3.5GB) required on first launch. Offline operation after setup. No data collection or transmission.",
+    "demo_account": "Not required - app works without account",
+    "test_instructions": [
+      "1. Launch app and complete initial model download",
+      "2. Test basic conversation with 'Hello' message",
+      "3. Test Japanese conversation",
+      "4. Test programming assistance",
+      "5. Verify offline operation in airplane mode"
+    ]
+  },
+  "technical_requirements": {
+    "ios_version": "16.0",
+    "devices": ["iPhone", "iPad"],
+    "minimum_chip": "A14 Bionic",
+    "storage_required": "4GB",
+    "network_required": "Initial download only"
+  },
+  "permissions": [],
+  "third_party_content": {
+    "model": {
+      "name": "Qwen3-4B-Instruct",
+      "license": "Apache 2.0",
+      "source": "Alibaba Cloud"
+    },
+    "inference_engine": {
+      "name": "llama.cpp",
+      "license": "MIT",
+      "source": "ggerganov/llama.cpp"
+    }
+  }
+}

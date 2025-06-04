@@ -8,7 +8,7 @@ enum LlamaError: Error {
 }
 
 @available(iOS 16.0, macOS 13.0, *)
-class LlamaService {
+class LlamaService: @unchecked Sendable {
     private var context: OpaquePointer?
     private let modelPath: URL
     
@@ -59,12 +59,18 @@ class LlamaService {
         
         // llama.cpp での生成処理
         // 実際の実装では C++ ブリッジが必要
-        return await withCheckedContinuation { continuation in
-            DispatchQueue.global().async {
-                // ここで実際の生成処理を行う
-                let response = self.generateText(formattedPrompt)
-                continuation.resume(returning: response)
+        return await withTaskGroup(of: String.self) { group in
+            group.addTask { [weak self] in
+                guard let self = self else {
+                    return "エラー: モデルが利用できません"
+                }
+                return self.generateText(formattedPrompt)
             }
+            
+            for await result in group {
+                return result
+            }
+            return "エラー: 処理に失敗しました"
         }
     }
     
