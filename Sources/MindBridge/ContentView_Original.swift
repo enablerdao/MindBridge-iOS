@@ -22,7 +22,7 @@ struct ContentView: View {
                                 HStack {
                                     ProgressView()
                                         .progressViewStyle(CircularProgressViewStyle())
-                                    Text("thinking".localized)
+                                    Text("思考中...")
                                         .foregroundColor(.gray)
                                 }
                                 .padding()
@@ -38,10 +38,9 @@ struct ContentView: View {
                 }
                 
                 HStack {
-                    TextField("chat_placeholder".localized, text: $messageText)
+                    TextField("メッセージを入力", text: $messageText)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .disabled(isLoading)
-                        .accessibilityLabel("accessibility_message_input".localized)
                     
                     Button(action: sendMessage) {
                         Image(systemName: "paperplane.fill")
@@ -51,24 +50,21 @@ struct ContentView: View {
                             .cornerRadius(8)
                     }
                     .disabled(messageText.isEmpty || isLoading)
-                    .accessibilityLabel("accessibility_send_button".localized)
                 }
                 .padding()
             }
-            .navigationTitle("app_name".localized)
+            .navigationTitle("Qwen3-4B Chat")
             .toolbar {
                 ToolbarItem(placement: .automatic) {
                     Button(action: { chatViewModel.showSettings = true }) {
                         Image(systemName: "gear")
                     }
-                    .accessibilityLabel("accessibility_settings_button".localized)
                 }
             }
         }
         .sheet(isPresented: $chatViewModel.showSettings) {
             SettingsView(viewModel: chatViewModel)
         }
-        .localized()
         .onAppear {
             chatViewModel.initializeModel()
         }
@@ -97,7 +93,7 @@ struct MessageBubble: View {
             }
             
             VStack(alignment: message.isUser ? .trailing : .leading, spacing: 4) {
-                Text(message.isUser ? "user_message".localized : "ai_message".localized)
+                Text(message.isUser ? "あなた" : "Qwen3")
                     .font(.caption)
                     .foregroundColor(.gray)
                 

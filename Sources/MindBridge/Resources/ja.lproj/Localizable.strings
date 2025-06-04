@@ -1,0 +1,86 @@
+/* MindBridge - Japanese Localization */
+
+/* App Name */
+"app_name" = "MindBridge";
+"app_subtitle" = "AIチャットアシスタント";
+
+/* Main Interface */
+"chat_placeholder" = "メッセージを入力してください...";
+"send_button" = "送信";
+"clear_chat" = "チャット履歴を削除";
+"settings" = "設定";
+
+/* Model Management */
+"model_download" = "モデルをダウンロード";
+"model_downloading" = "モデルをダウンロード中...";
+"model_download_progress" = "進行状況: %d%%";
+"model_download_complete" = "モデルのダウンロードが完了しました";
+"model_download_error" = "ダウンロードエラー";
+"model_not_available" = "モデルが利用できません";
+
+/* Settings Screen */
+"settings_title" = "設定";
+"model_selection" = "モデル選択";
+"language_settings" = "言語";
+"about" = "このアプリについて";
+"privacy_policy" = "プライバシーポリシー";
+"version" = "バージョン";
+
+/* Model Options */
+"qwen3_4b" = "Qwen3-4B（推奨）";
+"qwen3_1.7b" = "Qwen3-1.7B（軽量版）";
+"model_size" = "サイズ: %@";
+"model_description_4b" = "優れた多言語サポートを持つ高性能モデル";
+"model_description_1.7b" = "古いデバイスでも高速応答可能なコンパクトモデル";
+
+/* Chat Messages */
+"user_message" = "あなた";
+"ai_message" = "MindBridge";
+"thinking" = "思考中...";
+"generating" = "応答を生成中...";
+"error_generating" = "エラー: 応答を生成できませんでした";
+
+/* Onboarding */
+"welcome_title" = "MindBridgeへようこそ";
+"welcome_subtitle" = "あなた専用のプライベートAIアシスタント";
+"welcome_description" = "すべての会話はあなたのデバイス内で行われます。プライバシーは完全に保護されます。";
+"get_started" = "はじめる";
+"setup_model" = "AIモデルをセットアップ";
+"setup_model_description" = "チャットを開始するためにAIモデルをダウンロードします。これは一度だけ行う必要があります。";
+
+/* Features */
+"feature_private" = "完全プライベート";
+"feature_private_desc" = "すべての処理がデバイス内で完結";
+"feature_offline" = "オフライン動作";
+"feature_offline_desc" = "セットアップ後はインターネット接続不要";
+"feature_multilingual" = "多言語対応";
+"feature_multilingual_desc" = "複数の言語で自然な会話";
+"feature_programming" = "プログラミングアシスタント";
+"feature_programming_desc" = "コードのヘルプと説明";
+
+/* Alerts */
+"alert_clear_chat_title" = "チャット履歴を削除";
+"alert_clear_chat_message" = "すべてのチャットメッセージが永久に削除されます。続行しますか？";
+"cancel" = "キャンセル";
+"clear" = "削除";
+"ok" = "OK";
+"retry" = "再試行";
+
+/* Errors */
+"error_title" = "エラー";
+"error_model_load" = "AIモデルの読み込みに失敗しました";
+"error_network" = "ネットワーク接続エラー";
+"error_storage" = "ストレージエラー";
+"error_unknown" = "予期しないエラーが発生しました";
+
+/* Accessibility */
+"accessibility_send_button" = "メッセージを送信";
+"accessibility_clear_button" = "チャット履歴を削除";
+"accessibility_settings_button" = "設定を開く";
+"accessibility_message_input" = "メッセージ入力欄";
+
+/* Sample Prompts */
+"sample_hello" = "こんにちは！今日はどのようなお手伝いができますか？";
+"sample_programming" = "Swiftのオプショナルの使い方を教えてください";
+"sample_creative" = "AIについての短編小説を書いてください";
+"sample_learning" = "機械学習の基礎について教えてください";

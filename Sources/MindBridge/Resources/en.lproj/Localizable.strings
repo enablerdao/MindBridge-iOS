@@ -1,0 +1,86 @@
+/* MindBridge - English Localization */
+
+/* App Name */
+"app_name" = "MindBridge";
+"app_subtitle" = "AI Chat Assistant";
+
+/* Main Interface */
+"chat_placeholder" = "Type your message...";
+"send_button" = "Send";
+"clear_chat" = "Clear Chat";
+"settings" = "Settings";
+
+/* Model Management */
+"model_download" = "Download Model";
+"model_downloading" = "Downloading Model...";
+"model_download_progress" = "Progress: %d%%";
+"model_download_complete" = "Model Download Complete";
+"model_download_error" = "Download Error";
+"model_not_available" = "Model not available";
+
+/* Settings Screen */
+"settings_title" = "Settings";
+"model_selection" = "Model Selection";
+"language_settings" = "Language";
+"about" = "About";
+"privacy_policy" = "Privacy Policy";
+"version" = "Version";
+
+/* Model Options */
+"qwen3_4b" = "Qwen3-4B (Recommended)";
+"qwen3_1.7b" = "Qwen3-1.7B (Lightweight)";
+"model_size" = "Size: %@";
+"model_description_4b" = "High-performance model with excellent multilingual support";
+"model_description_1.7b" = "Compact model for faster responses on older devices";
+
+/* Chat Messages */
+"user_message" = "You";
+"ai_message" = "MindBridge";
+"thinking" = "Thinking...";
+"generating" = "Generating response...";
+"error_generating" = "Error: Unable to generate response";
+
+/* Onboarding */
+"welcome_title" = "Welcome to MindBridge";
+"welcome_subtitle" = "Your private AI assistant";
+"welcome_description" = "All conversations happen on your device. Your privacy is guaranteed.";
+"get_started" = "Get Started";
+"setup_model" = "Set Up AI Model";
+"setup_model_description" = "Download the AI model to start chatting. This only needs to be done once.";
+
+/* Features */
+"feature_private" = "Completely Private";
+"feature_private_desc" = "All processing happens on your device";
+"feature_offline" = "Works Offline";
+"feature_offline_desc" = "No internet connection required after setup";
+"feature_multilingual" = "Multilingual Support";
+"feature_multilingual_desc" = "Natural conversations in multiple languages";
+"feature_programming" = "Programming Assistant";
+"feature_programming_desc" = "Code help and explanations";
+
+/* Alerts */
+"alert_clear_chat_title" = "Clear Chat History";
+"alert_clear_chat_message" = "This will permanently delete all chat messages. Continue?";
+"cancel" = "Cancel";
+"clear" = "Clear";
+"ok" = "OK";
+"retry" = "Retry";
+
+/* Errors */
+"error_title" = "Error";
+"error_model_load" = "Failed to load AI model";
+"error_network" = "Network connection error";
+"error_storage" = "Storage error";
+"error_unknown" = "An unexpected error occurred";
+
+/* Accessibility */
+"accessibility_send_button" = "Send message";
+"accessibility_clear_button" = "Clear chat history";
+"accessibility_settings_button" = "Open settings";
+"accessibility_message_input" = "Message input field";
+
+/* Sample Prompts */
+"sample_hello" = "Hello! How can you help me today?";
+"sample_programming" = "Explain how to use Swift optionals";
+"sample_creative" = "Write a short story about AI";
+"sample_learning" = "Teach me about machine learning basics";

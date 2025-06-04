@@ -17,7 +17,8 @@ let package = Package(
         .target(
             name: "MindBridge",
             dependencies: ["LlamaCpp"],
-            path: "Sources/MindBridge"),
+            path: "Sources/MindBridge",
+            resources: [.process("Resources")]),
         .target(
             name: "LlamaCpp",
             path: "Sources/LlamaCpp",

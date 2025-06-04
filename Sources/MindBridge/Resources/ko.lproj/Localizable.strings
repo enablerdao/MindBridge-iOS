@@ -1,0 +1,86 @@
+/* MindBridge - Korean Localization */
+
+/* App Name */
+"app_name" = "MindBridge";
+"app_subtitle" = "AI 채팅 어시스턴트";
+
+/* Main Interface */
+"chat_placeholder" = "메시지를 입력하세요...";
+"send_button" = "전송";
+"clear_chat" = "채팅 기록 지우기";
+"settings" = "설정";
+
+/* Model Management */
+"model_download" = "모델 다운로드";
+"model_downloading" = "모델 다운로드 중...";
+"model_download_progress" = "진행률: %d%%";
+"model_download_complete" = "모델 다운로드 완료";
+"model_download_error" = "다운로드 오류";
+"model_not_available" = "모델을 사용할 수 없습니다";
+
+/* Settings Screen */
+"settings_title" = "설정";
+"model_selection" = "모델 선택";
+"language_settings" = "언어";
+"about" = "정보";
+"privacy_policy" = "개인정보 처리방침";
+"version" = "버전";
+
+/* Model Options */
+"qwen3_4b" = "Qwen3-4B (권장)";
+"qwen3_1.7b" = "Qwen3-1.7B (경량화)";
+"model_size" = "크기: %@";
+"model_description_4b" = "뛰어난 다국어 지원을 제공하는 고성능 모델";
+"model_description_1.7b" = "구형 기기에서도 빠른 응답이 가능한 컴팩트 모델";
+
+/* Chat Messages */
+"user_message" = "사용자";
+"ai_message" = "MindBridge";
+"thinking" = "생각 중...";
+"generating" = "응답 생성 중...";
+"error_generating" = "오류: 응답을 생성할 수 없습니다";
+
+/* Onboarding */
+"welcome_title" = "MindBridge에 오신 것을 환영합니다";
+"welcome_subtitle" = "당신만의 프라이빗 AI 어시스턴트";
+"welcome_description" = "모든 대화는 당신의 기기에서 이루어집니다. 프라이버시가 완전히 보호됩니다.";
+"get_started" = "시작하기";
+"setup_model" = "AI 모델 설정";
+"setup_model_description" = "채팅을 시작하기 위해 AI 모델을 다운로드합니다. 이 작업은 한 번만 수행하면 됩니다.";
+
+/* Features */
+"feature_private" = "완전 프라이빗";
+"feature_private_desc" = "모든 처리가 기기 내에서 완료됩니다";
+"feature_offline" = "오프라인 작동";
+"feature_offline_desc" = "설정 후 인터넷 연결이 필요하지 않습니다";
+"feature_multilingual" = "다국어 지원";
+"feature_multilingual_desc" = "여러 언어로 자연스러운 대화";
+"feature_programming" = "프로그래밍 어시스턴트";
+"feature_programming_desc" = "코드 도움말 및 설명";
+
+/* Alerts */
+"alert_clear_chat_title" = "채팅 기록 지우기";
+"alert_clear_chat_message" = "모든 채팅 메시지가 영구적으로 삭제됩니다. 계속하시겠습니까?";
+"cancel" = "취소";
+"clear" = "지우기";
+"ok" = "확인";
+"retry" = "재시도";
+
+/* Errors */
+"error_title" = "오류";
+"error_model_load" = "AI 모델 로딩에 실패했습니다";
+"error_network" = "네트워크 연결 오류";
+"error_storage" = "저장소 오류";
+"error_unknown" = "예기치 않은 오류가 발생했습니다";
+
+/* Accessibility */
+"accessibility_send_button" = "메시지 전송";
+"accessibility_clear_button" = "채팅 기록 지우기";
+"accessibility_settings_button" = "설정 열기";
+"accessibility_message_input" = "메시지 입력 필드";
+
+/* Sample Prompts */
+"sample_hello" = "안녕하세요! 오늘 어떤 도움을 드릴까요?";
+"sample_programming" = "Swift 옵셔널 사용법을 설명해주세요";
+"sample_creative" = "AI에 관한 단편 소설을 써주세요";
+"sample_learning" = "머신러닝 기초에 대해 가르쳐주세요";
